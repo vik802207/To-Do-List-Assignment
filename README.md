@@ -58,7 +58,15 @@ src/
     TodoApp.css
 ```
 ## Screenshot
-![Alt text](https://github.com/vik802207/Ticket_Booking/blob/main/image/Screenshot%20(332).png?raw=true)
+![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(408).png)
+![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(409).png)
+![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(410).png)
+![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(411).png)
+![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(412).png)
+![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(413).png)
+![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(414).png)
+![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(415).png)
+![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(416).png)
 
 ## 🔗 Live Demo
 👉 To-do-list Live
