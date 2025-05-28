@@ -1,0 +1,50 @@
+.filter-container {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem;
+}
+
+.filter-select {
+  padding: 0.75rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: 1.8px solid var(--border-color);
+  background: var(--select-bg);
+  color: var(--text-color);
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 12px var(--shadow-color);
+  transition: all 0.3s ease;
+  outline: none;
+  appearance: none;
+}
+
+.filter-select:hover {
+  border-color: var(--border-hover);
+  background: var(--select-hover);
+  box-shadow: 0 6px 18px var(--shadow-color);
+}
+
+.filter-select option {
+  background-color: var(--option-bg);
+  color: var(--text-color);
+}
+:root {
+  --select-bg: rgba(145, 164, 229, 0.7);
+  --select-hover: rgba(255, 255, 255, 0.9);
+  --option-bg: #fff;
+  --border-color: rgba(200, 200, 200, 0.6);
+  --border-hover: #5e60ce;
+  --text-color: #222;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+body.dark {
+  --select-bg: rgba(30, 30, 60, 0.7);
+  --select-hover: rgba(40, 40, 80, 0.9);
+  --option-bg: #2b2b4f;
+  --border-color: rgba(255, 255, 255, 0.2);
+  --border-hover: #a18eff;
+  --text-color: #eee;
+  --shadow-color: rgba(94, 96, 206, 0.3);
+}

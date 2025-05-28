@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background 0.3s ease;
+}
+
+.todo-container {
+  padding: 2rem;
+  min-height: 100vh;
+  background: var(--bg);
+  transition: background 0.3s ease;
+}
+
+.light {
+  --bg: #f9f9f9;
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --text: #222;
+  --shadow: rgba(0, 0, 0, 0.1);
+}
+
+.dark {
+  --bg: #1c1c1c;
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --text: #f1f1f1;
+  --shadow: rgba(0, 0, 0, 0.3);
+}
+
+.todo-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: var(--glass-bg);
+  color: var(--text);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 12px var(--shadow);
+  border-radius: 0 0 16px 16px;
+  transition: all 0.3s ease;
+}
+
+.glass-btn {
+  background: var(--glass-bg);
+  color: var(--text);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  margin-left: 1rem;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px var(--shadow);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.glass-btn:hover {
+  transform: scale(1.05);
+}
+
+.todo-glass {
+  background: #856d75;
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 1rem;
+  margin: 1rem 0;
+  box-shadow: 0 8px 20px var(--shadow);
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-card {
+  background: var(--glass-bg);
+  color: var(--text);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 12px var(--shadow);
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.task-card:hover {
+  transform: scale(1.02);
+  background: rgba(255, 255, 255, 0.3);
+}

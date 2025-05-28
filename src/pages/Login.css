@@ -1,0 +1,142 @@
+/* Backgrounds */
+body.light-body {
+  background: linear-gradient(135deg, #221a63 0%, #5a65f5 100%);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body.dark-body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.toggle-wrapper {
+  text-align: right;
+  padding: 1rem;
+  color: white;
+}
+
+.toggle-label {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/* Glassmorphism form */
+.glass-form {
+  max-width: 360px;
+  margin: 4rem auto;
+  padding: 2rem;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+  color: #333;
+  transition: all 0.4s ease;
+}
+
+.glass-form.dark {
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.glass-title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+/* Input Group with floating labels */
+.input-group {
+  position: relative;
+  margin-bottom: 1.8rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 1.2rem 0.8rem 0.6rem;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  color: #101312;
+  font-size: 1rem;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.glass-form.dark .input-group input {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.input-group input::placeholder {
+  color: transparent;
+}
+
+.input-group input:focus {
+  border-color: #00d4ff;
+  background: rgba(255, 255, 255, 0.3);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 212, 255, 0.3);
+}
+
+.input-group label {
+  position: absolute;
+  top: 50%;
+  left: 0.8rem;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  transition: all 0.3s ease;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.input-group input:focus + label,
+.input-group input:not(:placeholder-shown) + label {
+  top: 0.4rem;
+  left: 0.7rem;
+  font-size: 0.75rem;
+  color: #00d4ff;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0 0.3rem;
+  border-radius: 4px;
+}
+
+/* Button */
+.glass-button {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.glass-button:hover {
+  opacity: 0.9;
+}
+
+/* Footer link */
+.glass-footer {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.glass-link {
+  background: none;
+  border: none;
+  color: #6a11cb;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.glass-link:hover {
+  color: #2575fc;
+}
