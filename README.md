@@ -63,10 +63,13 @@ src/
 ![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(410).png)
 ![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(411).png)
 ![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(412).png)
-![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(413).png)
-![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(414).png)
-![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(415).png)
 ![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(416).png)
+![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(417).png)
+![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(418).png)
+![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(419).png)
+![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(420).png)
+![Alt text](https://github.com/vik802207/To-Do-List-Assignment/blob/main/img/Screenshot%20(421).png)
+
 
 ## 🔗 Live Demo
 👉 To-do-list Live
