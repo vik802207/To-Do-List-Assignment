@@ -28,7 +28,7 @@ A lightweight React To-Do List app featuring:
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/yourusername/react-todo-local-auth.git
+   git clone https://github.com/vik802207/To-Do-List-Assignment.git
    cd Assignment-todo
    npm install
    npm start
