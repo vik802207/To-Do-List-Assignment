@@ -57,6 +57,22 @@ src/
     Login.css
     TodoApp.css
 ```
+## Screenshot
+
+
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+## 📞 Contact
+
+For any queries, reach out to me at vikashg802207@gmail.com
+## 📜 License
+
+This project is open-source and available under the MIT License.
+
+
 
 
 
